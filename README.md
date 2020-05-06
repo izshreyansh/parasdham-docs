@@ -16,7 +16,7 @@ An admin user has the ability to Create New Members, Import/Export bulk data, Mo
 This is an SPA which is powered by Laravel at the back. And uses [VUE.JS V2](http://vuejs.org/v2/) for the frontend.
 
 ### Backend / Laravel
-We use Laravel framework built on top of PHP in order to power this SPA. At the time of writing this document it is `~6`. 
+We use Laravel framework built on top of PHP in order to power this SPA. At the time of writing this document it is `~7`. 
 
 ### Frontend / Vue.js
 Vue.js is used with document structure of a vue-router project. Api calls are provided by axios library.
