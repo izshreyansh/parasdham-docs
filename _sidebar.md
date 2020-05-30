@@ -9,6 +9,8 @@
     * [Filters & Sort](/Backend/filters.md)
     * [Changelog](/Backend/changelog.md)
     * [Search](/Backend/search.md)
+    * [Relationships](/Backend/relationships.md)
+    * [Mission's Treeview](/Backend/treeview.md)
     * [Import/Export](/Backend/import.md)
     * [API](/Backend/api/index.html ':ignore')
     * [Routes](/Backend/routes.md)
