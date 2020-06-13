@@ -27,4 +27,4 @@ In-order to use this policy you can use this snippet.
     </router-link>
 </li>
 ```
-> Here `crud` is function on MembersPolicy at `src\gates.js`
+> :warning: Here `crud` is function on MembersPolicy at `src\gates.js`

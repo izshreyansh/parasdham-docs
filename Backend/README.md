@@ -3,21 +3,9 @@ This guide assumes that you're familiar with setting up [Laravel application](ht
 
 If you don't have a working web-server & want to create a new one, You can follow this concise article by [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04)
 
-## Setting up the project
-First step is cloning the project in the repository of your choice. Next is as follow.
-
-1. copy .env.example to .env
-2. Run `composer install`
-3. Set your database environment details in .env file.
-4. Run `php artisan migrate` 
-   (Optionally add `--seed` if you don't have database-dump.sql)
-
-5. Set `SCOUT_DRIVER` to `[tntsearch](https://github.com/teamtnt/laravel-scout-tntsearch-driver#installation)`
-   > In `config/scout.php` you will find array called `tntsearch` it is responsible for creating indexes for search in our application. You want to make sure that user www-data has proper write permission to storage_path.
-   
 ### Backend Server NGINX configuration
 
-Adding this line is very important for CORS image access to front-end `add_header 'Access-Control-Allow-Origin' '*';`
+> Allowing CORS access for image is very important, Otherwise users won't be able to access their uploaded media.  <br /> `add_header 'Access-Control-Allow-Origin' '*';`
 
 ```
 server {

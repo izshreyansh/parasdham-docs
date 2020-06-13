@@ -1,6 +1,7 @@
 * [Home](/)
 * Backend
     * [Introduction](/Backend/README.md)
+    * [Installation](/Backend/installation.md)
     * [ERD](/Backend/erd.md)
     * [Authentication](/Backend/authentication.md)
     * [Commands & Scheduling](/Backend/scheduling.md)
@@ -16,6 +17,7 @@
     * [Routes](/Backend/routes.md)
 * Frontend
     * [Introduction](/Frontend/README.md)
+    * [Installation](/Frontend/installation.md)
     * [Authentication](/Frontend/authentication.md)
     * [API Calls](/Frontend/apicalls.md)
 * Cookbook
