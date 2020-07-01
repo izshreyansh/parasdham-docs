@@ -1,5 +1,11 @@
+> Quickest way to deploy this documentation site on local machine is by running these 2 commands:
+```
+> npm i docsify-cli -g
+> docsify serve
+```
+
 # Introduction
-This is a CRM system that deals with member data which are affiliated with custom groups. Member data contains basic information about member, his/her affiliation, contact details & his family tree. 
+This is a CRM system that deals with member data which are affiliated with custom groups. Member data contains basic information about member, his/her affiliation, contact details & his family tree.
 There are two types of users in the system.
 1. Member
 2. Admin Users
@@ -16,7 +22,7 @@ An admin user has the ability to Create New Members, Import/Export bulk data, Mo
 This is an SPA which is powered by Laravel at the back. And uses [VUE.JS V2](http://vuejs.org/v2/) for the frontend.
 
 ###### Backend / Laravel
-We use Laravel framework built on top of PHP in order to power this SPA. At the time of writing this document it is `~7`. 
+We use Laravel framework built on top of PHP in order to power this SPA. At the time of writing this document it is `~7`.
 
 ###### Frontend / Vue.js
 Vue.js is used with document structure of a vue-router project. Api calls are provided by axios library.

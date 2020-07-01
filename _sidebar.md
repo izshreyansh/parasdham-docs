@@ -23,3 +23,4 @@
 * Cookbook
     * [Authorisation](/Cookbook/authorisation.md)
     * [Notifications](/Cookbook/notifications.md)
+* [Docs deploy](/docs-deploy.md)
